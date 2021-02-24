@@ -1,0 +1,13 @@
+{
+  "Version": "13.4.0",
+  "Name": "Konkcs-flask",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://www.example.com/upload",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "secret_key": "API_KEY"
+  },
+  "FileFormName": "image",
+  "URL": "http://www.example.com/$json:filename$"
+}
