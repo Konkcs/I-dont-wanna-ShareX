@@ -1,0 +1,43 @@
+.body {
+    background-color: #2c2f33;
+    border-style: solid;
+    border-color: #7289da;
+    border-width: 7px
+}
+.center-vert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.user-credit {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Lucida Handwriting", "Times New Roman";
+    font-size: 20px;
+    color: gray;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.img {
+    width: 100%;
+    max-width: 1600px;
+}
+input[type=text] {
+        width: 250px;
+        background-color: #2c2f33;
+        border-color: transparent;
+        text-align: center;
+        outline-width: 0;
+        color: gray;
+        font-family: "Lucida Handwriting", "Times New Roman";
+}
+input[type=text]:focus {
+    outline-width: 0;
+}
+.api-form {
+    position: absolute;
+    top: 95%;
+}

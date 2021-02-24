@@ -1,0 +1,23 @@
+<head>
+    <title>{{upload_username}} is cool</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="theme-color" content="#7289DA">
+    <meta content='{{ss_location}}' property='og:image'>
+    <meta name="twitter:card" content="summary_large_image">
+    <link type="application/json+oembed" href="{{json_location}}">
+    <link rel='stylesheet' href="{{ URL }}/static/css/style.css">
+</head>
+<body class="body">
+    <center>
+        <div class="center-vert">
+            <span class="user-credit" >Author: {{upload_username}}</span>
+            <img class="img" src="{{ss_location}}">
+        </div>
+        <form action="delete" class="api-form">
+            <input type="hidden" id="img_url" name="del_url" value="{{cur_url}}">
+            <input type="text" id="api_key" name="api_key" value="Enter your api key here to delete" onfocus="this.value=''">
+        </form>
+    </center>
+</body>
+

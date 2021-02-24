@@ -1,0 +1,5 @@
+hurry.filesize
+dnspython
+pymongo
+pillow
+flask
