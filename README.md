@@ -4,18 +4,20 @@ Flask website to upload sharex images and display them in discord with an embed
 # Installation
 
 * Install python
-* pip install all requirements in requirements.txt
+```
+pip install hurry.filesize
+pip install dnspython
+pip install pillow
+pip install flask
+```
 
 # Setup
-* for MongoDB you need to:
-  * Create a [MongoDB account](https://www.youtube.com/watch?v=rE_bJl2GAY8)
-  * Create a cluster called "sharex"
-  * Create a colllection called "api keys"
-  * If you're NOT using the discord bot (link soon) you will need to add an entry to the collection with the fields: {"\_id": "0", "api_key": "A SECRET KEY HERE"}
+* If you're running from home you need to forward port 80
 * In main.py you need to
-  * line 14: set your MongoDB connection link (video above explains where/how to get it
-  * line 21: set your website URL
-  * line 76: set your embed title url (where it should take someone when they click it)
-* run main.py and enjoy :)
+  * line 12: Set your author name for above screenshots (On the website/discord embed) 
+  * line 13: Set your API key (Used for uploading and deleting images)
+  * line 17: Set your website URL
+  * line 71: Set your embed title url (where it should take someone when they click it)
+* Run "main.py" and enjoy :)
 
-[Discord](https://discord.gg/uf8KCFhPch) Konk#1337
+If you need any help you can either join [Discord](https://discord.gg/uf8KCFhPch) or add me Konk#1337
